@@ -2,15 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Gallery from '../views/Gallery.vue'
-import GallerySingle from '../views/GallerySingle.vue'
+import Capstone from '@/views/Capstone.vue'
 
 
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
   { path: '/gallery', component: Gallery },
-  { path: '/gallery/:id', component: GallerySingle },
-  // { path: '/capstone', component: Capstone },
+  { path: '/capstone', component: Capstone },
   // { path: '/contact', component: Contact }
 ]
 

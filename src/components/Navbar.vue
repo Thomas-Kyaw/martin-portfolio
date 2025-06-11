@@ -60,8 +60,7 @@ onBeforeUnmount(() => {
             <li><RouterLink to="/gallery/videos" class="block px-[20px] py-[10px] text-[15px] transition-colors duration-300" :style="{ color: 'var(--nav-dropdown-color)' }" @mouseover="$event.target.style.color = 'var(--nav-dropdown-hover-color)'" @mouseout="$event.target.style.color = 'var(--nav-dropdown-color)'">Videos</RouterLink></li>
           </ul>
         </div>
-        <RouterLink to="/services" class="px-[15px] py-[18px] text-[14px] font-normal tracking-[1px] transition-colors duration-300" :class="{ 'active': isActive('/services') }" :style="{ color: 'var(--nav-color)' }">Services</RouterLink>
-        <RouterLink to="/contact" class="px-[15px] py-[18px] text-[14px] font-normal tracking-[1px] transition-colors duration-300" :class="{ 'active': isActive('/contact') }" :style="{ color: 'var(--nav-color)' }">Contact</RouterLink>
+        <RouterLink to="/capstone" class="px-[15px] py-[18px] text-[14px] font-normal tracking-[1px] transition-colors duration-300" :class="{ 'active': isActive('/capstone') }" :style="{ color: 'var(--nav-color)' }">capstone</RouterLink>
       </nav>
 
       <!-- Social Icons -->

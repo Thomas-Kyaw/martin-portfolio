@@ -1,5 +1,5 @@
 <template>
-  <section class="about-page text-white bg-black">
+  <section class="about-page bg-black">
     <!-- Hero Title -->
     <div class="page-title py-20 text-center">
       <div class="max-w-3xl mx-auto px-4">
@@ -9,7 +9,8 @@
         </p>
         <RouterLink
           to="/contact"
-          class="inline-block mt-6 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold rounded transition"
+          class="inline-block mt-8 px-6 py-3 text-lg font-semibold rounded transition duration-300 tracking-wide"
+          style="background-color: #800000; color: white;"
         >
           AVAILABLE FOR HIRE
         </RouterLink>
@@ -29,16 +30,16 @@
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
               <ul class="space-y-2">
-                <li><span class="text-emerald-500 font-semibold">Birthday:</span> 4th March 2003</li>
-                <li><span class="text-emerald-500 font-semibold">Website:</span> www.example.com</li>
-                <li><span class="text-emerald-500 font-semibold">Phone:</span> +019-4396275</li>
-                <li><span class="text-emerald-500 font-semibold">City:</span> Kuching, Sarawak, Malaysia</li>
+                <li><span class="text-emerald-500 font-semibold" style="color: var(--accent-color);">Birthday:</span> 4th March 2003</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Website:</span> www.example.com</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Phone:</span> +019-4396275</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">City:</span> Kuching, Sarawak, Malaysia</li>
               </ul>
               <ul class="space-y-2">
-                <li><span class="text-emerald-500 font-semibold">Age:</span> 22</li>
-                <li><span class="text-emerald-500 font-semibold">Degree:</span> Bachelor of Design (Multimedia Design)</li>
-                <li><span class="text-emerald-500 font-semibold">Email:</span> martinwitha03@gmail.com</li>
-                <li><span class="text-emerald-500 font-semibold">Freelance:</span> Available</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Age:</span> 22</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Degree:</span> Bachelor of Design (Multimedia Design)</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Email:</span> martinwitha03@gmail.com</li>
+                <li><span class="text-emerald-500 font-semibold"style="color: var(--accent-color);">Freelance:</span> Available</li>
               </ul>
             </div>
             <div class="mt-6 text-sm text-gray-800 space-y-4">
@@ -51,6 +52,24 @@
             </div>
           </div>
         </div>
+
+        <!-- Skill Map Section -->
+        <div class="mt-20 bg-[#e5e0c5] py-16 px-6 md:px-12 text-black rounded-lg shadow-inner">
+        <h2 class="text-2xl md:text-3xl font-semibold text-center mb-6 text-emerald-700 tracking-tight">
+            My Skill Map
+        </h2>
+        <p class="text-center max-w-2xl mx-auto mb-12 text-[15px] leading-relaxed">
+            A quick visual of my strengths in photography, videography, and design software—paired with growing creative and collaboration skills.
+        </p>
+        <div class="flex justify-center">
+            <img 
+            src="@/assets/img/skill-map.jpg" 
+            alt="Skill Map showing hard and soft skills" 
+            class="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
+            />
+        </div>
+        </div>
+
       </div>
     </div>
   </section>

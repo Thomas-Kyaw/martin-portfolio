@@ -11,13 +11,13 @@
 /* Colors */
 :root {
   --background-color: #F5F5DC;
-  --default-color: #fafafa;
-  --heading-color: #ffffff;
-  --accent-color: #27ae60;
+  --default-color: #0D0D0D;
+  --heading-color: #0D0D0D;
+  --accent-color: #BF0404;
   --surface-color: #1a1a1a;
   --contrast-color: #ffffff;
   --nav-color: rgba(255, 255, 255, 0.5);
-  --nav-hover-color: #ffffff;
+  --nav-hover-color: #262626;
   --nav-mobile-background-color: rgba(255, 255, 255, 0.1);
   --nav-dropdown-background-color: #1a1a1a;
   --nav-dropdown-color: rgba(255, 255, 255, 0.5);
